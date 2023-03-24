@@ -1,9 +1,3 @@
-<script setup lang="ts">
-
-// import HelloWorld from './components/HelloWorld.vue';
-// import TopBar from './components/navigation/top/TopBar.vue'
-
-</script>
 
 <template>
   <div>
@@ -14,30 +8,38 @@
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-      <v-btn> Button </v-btn>
-    <v-btn variant="tonal"> Button </v-btn>
-    <v-btn variant="flat"> {{$t('GENERAL.NAME')}} </v-btn>
-    <v-btn variant="flat"> {{$t('GREETINGS')}} </v-btn>
-    <!-- <v-btn variant="flat" content = this.$t("GENERAL.NAME")>  </v-btn> -->
 
-    <v-btn variant="flat" color="secondary"> Secondary </v-btn>
+    <v-container class="text-center">
+    <v-row justify="center">
+      <v-col cols="12" sm="6" md="4">
+        <v-btn block rounded="0" size="x-large">{{$t('GENERAL.NAME')}}</v-btn>
+      </v-col>
 
-    <v-btn variant="flat" color="error"> Error </v-btn>
-  <!-- <Topbar/> -->
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
+      <v-col cols="12" sm="6" md="4">
+        <v-btn block rounded="xs" size="x-large">{{$t('GREETINGS')}}</v-btn>
+      </v-col>
+
+      <v-col cols="12" sm="6" md="4">
+        <v-btn block rounded="sm" size="x-large">Rounded sm</v-btn>
+      </v-col>
+
+      <v-col cols="12" sm="6" md="4">
+        <v-btn block size="x-large">Button</v-btn>
+      </v-col>
+
+      <v-col cols="12" sm="6" md="4">
+        <v-btn block rounded="lg" size="x-large">Rounded lg</v-btn>
+      </v-col>
+
+      <v-col cols="12" sm="6" md="4">
+        <v-btn block rounded="xl" size="x-large">Rounded xl</v-btn>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
 </style>
+<script setup lang="ts">
+
+</script>

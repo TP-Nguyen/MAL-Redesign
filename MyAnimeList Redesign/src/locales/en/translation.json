@@ -1,0 +1,30 @@
+{
+    "GREETINGS": "Welcome",
+    "GENERAL": {
+        "NAME": "Name",
+        "SEARCH": "Search",
+        "SUGGESTION": "Suggestion",
+        "RECOMMENDATION": "Recommendation",
+        "POPULAR": "Popular",
+        "UPCOMING": "Upcoming",
+        "FEARURED": "Featured",
+        "LATEST": "Latest",
+        "REVIEWS": "Reviews",
+        "DISCUSSION": "Discussion",
+        "UPDATES": "Updates",
+        "RECENT": "Recent"
+    },
+    "LOGIN": {
+        "": ""
+    },
+    "USER": {
+        "": ""
+    },
+    "ANIME": {
+        "": ""
+
+    },
+    "MANGA": {
+        "": ""
+    }
+}
