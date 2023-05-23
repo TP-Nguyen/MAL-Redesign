@@ -14,6 +14,20 @@
         "UPDATES": "Updates",
         "RECENT": "Recent"
     },
+    "NAV": {
+        "SIGN_UP": "sign up",
+        "ANIME": "Anime",
+        "MANGA": "Manga",
+        "COMMUNITY": "Community",
+        "INDUSTRY": "Industry",
+        "SEARCH": "search",
+        "DARK": "Dark",
+        "LIGHT": "Light",
+        "LANGUAGE": "Language",
+        "SETTINGS": "Settings",
+        "HELP": "Help",
+        "HIDE_ADS": "Hide Ads"
+    },
     "LOGIN": {
         "": ""
     },

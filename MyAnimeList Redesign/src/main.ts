@@ -7,6 +7,9 @@ import vuetify from './plugins/vuetify';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 import router from 'router';
+import "@mdi/font/css/materialdesignicons.css";
+import "@fortawesome/fontawesome-free/css/all.css";
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 
 createApp(App)

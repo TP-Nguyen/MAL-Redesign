@@ -1,24 +1,18 @@
 
+<script setup lang="ts">
+import HelloWorld from './components/HelloWorld.vue';
+import SideBar from './components/navigation/SideBar.vue';
+import Topbar from './components/navigation/TopBar.vue';
+</script>
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+<HelloWorld msg="You did it!" />
+<SideBar/>
+<Topbar/>
     <v-col cols="auto">
       <v-btn size="x-small" v-on:click="loadanime()">{{
         $t("GREETINGS")
       }}</v-btn>
-    </v-col>
-
-    <v-col cols="auto">
-      <v-btn size="small">Small Button</v-btn>
-    </v-col>
-
-    <v-col cols="auto">
-      <v-btn>Regular Button</v-btn>
     </v-col>
   </div>
 </template>
