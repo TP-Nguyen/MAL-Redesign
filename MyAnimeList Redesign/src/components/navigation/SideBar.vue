@@ -1,9 +1,3 @@
-<script setup lang="ts">
-import { ref } from "vue";
-
-defineProps<{ msg: string }>();
-</script>
-
 <template>
     <v-card>
       <v-layout>
@@ -37,16 +31,27 @@ defineProps<{ msg: string }>();
             ></v-list-item>
           </v-list>
 
-          <v-list>
+        <template v-slot:append>
+          <div>
+          <v-list density="compact" nav >
                <v-list-item
                prepend-icon="languageIcon"
-              :title = "$t('NAV.LANGUAGE')"
-              value="Language"
-              ></v-list-item>
+              >
+      <v-select
+      
+      v-model="$i18n.locale"
+      :items="locales"
+      item-title="label"
+      item-value="value"
+      :label="$t('NAV.LANGUAGE')"
+      density="compact"
+    ></v-select>
+
+              </v-list-item>
                <v-list-item
                prepend-icon="contrastIcon"
-              :title = "$t('NAV.DARK')"
-              value="Darkmode"
+              :title = theme.global.name.value
+              value="theme"
               @click="toggleTheme"
               ></v-list-item>
                <v-list-item
@@ -67,20 +72,34 @@ defineProps<{ msg: string }>();
               value="Hide Ads"
               ></v-list-item>
           </v-list>
+          </div>
+        </template>
+
         </v-navigation-drawer>
         <v-main style="height: 250px"></v-main>
       </v-layout>
     </v-card>
 </template>
-<script lang="ts">
-import { useTheme } from 'vuetify'
+
+<script>
+import { useTheme, useLocale } from 'vuetify'
 export default {
+  data () {
+    return {
+      locales: [
+        {value: "en", label: "english" },
+        {value: "de", label: "german" }
+      ],
+    }
+  },
   setup () {
-    const theme = useTheme()
+      const theme = useTheme()
 
     return {
       theme,
-      toggleTheme: () => theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark'
+      toggleTheme: () => theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark', 
     }
-  },
-}</script>
+  },  
+
+}
+</script>

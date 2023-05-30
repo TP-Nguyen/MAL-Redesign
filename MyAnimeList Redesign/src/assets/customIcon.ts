@@ -30,7 +30,7 @@ informationIcon,
 languageIcon,
 mailIcon,
 notificationsIcon,
-settingIcon
+settingIcon,playIcon
 }
 
 const custom: IconSet = {
