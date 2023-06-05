@@ -15,6 +15,10 @@ import mailIcon from './icon/mail.vue'
 import notificationsIcon from './icon/notifications.vue'
 import settingIcon from './icon/settings.vue'
 import playIcon from './icon/play-circle.vue'
+import arrowDownIcon from './icon/arrow-down.vue'
+import arrowUpIcon from './icon/arrow-up.vue'
+import arrowLeftIcon from './icon/arrow-left.vue'
+import arrowRightIcon from './icon/arrow-right.vue'
 // import Icon from './icon/'
 
 const customIcon: any = {
@@ -30,7 +34,9 @@ informationIcon,
 languageIcon,
 mailIcon,
 notificationsIcon,
-settingIcon,playIcon
+settingIcon,
+playIcon,
+arrowDownIcon,arrowUpIcon,arrowLeftIcon,arrowRightIcon
 }
 
 const custom: IconSet = {

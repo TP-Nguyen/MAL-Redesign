@@ -3,16 +3,9 @@
     "GENERAL": {
         "NAME": "Name",
         "SEARCH": "Search",
-        "SUGGESTION": "Suggestion",
-        "RECOMMENDATION": "Recommendation",
-        "POPULAR": "Popular",
-        "UPCOMING": "Upcoming",
-        "FEARURED": "Featured",
-        "LATEST": "Latest",
-        "REVIEWS": "Reviews",
-        "DISCUSSION": "Discussion",
-        "UPDATES": "Updates",
-        "RECENT": "Recent"
+        "LOGIN": "login",
+        "ANIME": "anime",
+        "MANGA": "manga"
     },
     "NAV": {
         "SIGN_UP": "sign up",
@@ -28,17 +21,41 @@
         "HELP": "Help",
         "HIDE_ADS": "Hide Ads"
     },
-    "LOGIN": {
-        "": ""
+    "TITLE": {
+        "SUGGESTION": "suggestion",
+        "RECOMMENDATION": "recommendation",
+        "REVIEWS": "reviews",
+        "DISCUSSION": "Discussion",
+        "LATEST_UPDATE": "latest update",
+        "MANGA_STORE": "manga store",
+        "MOST_POPULAR_TRAILERS": "most popular anime trailers",
+        "ANIME_MANGA_NEWS": "anime & manga news",
+        "RECENT_ANIME_DISCUSSION": "recent anime discussion",
+        "FEATURED_ARTICLES": "featured articles",
+        "LATEST_ANIME": "latest anime"
     },
-    "USER": {
-        "": ""
+    "RANKING": {
+        "AIRING": "top airing anime",
+        "UPCOMING": "top upcoming anime",
+        "BYPOPULARITY": "most popular anime"
     },
-    "ANIME": {
-        "": ""
+    "SEASON": {
+        "SPRING": "spring",
+        "SUMMER": "summer",
+        "FALL": "fall",
+        "WINTER": "winter"
 
     },
-    "MANGA": {
+    "ANIME": {
+        "SUGGESTION": "Suggestion",
+        "RECOMMENDATION": "Recommendation",
+        "REVIEWS": "Reviews",
         "": ""
+    },
+    "REVIEWS": {
+        "REVIEWS": "Reviews",
+        "RATING": "Rating",
+        "SCORE": "Score",
+        "BY": "By"
     }
 }

@@ -21,8 +21,8 @@ const vuetify = createVuetify({
                          textPrimary:'',
                          textSecondary:'',
                          genre:'',
-                         reviwe:'',
-                         cube:'',
+                         review:'#F2F2F2',
+                         cube:'#FFFFFF',
                          background:'#FAF9F6',
                     }
                },
@@ -30,6 +30,11 @@ const vuetify = createVuetify({
                     dark: true,
                     colors: {
                          primary: '#2E51A2',
+                         textPrimary:'',
+                         textSecondary:'',
+                         genre:'',
+                         review:'#131313',
+                         cube:'#212121',
                          background:'#303030',
                     }
                }
@@ -46,10 +51,5 @@ const vuetify = createVuetify({
           }
         },
 })
- 
-// const theme = useTheme();
-// const toggleTheme = (): void => {
-//      theme.global.name.value = theme.global.current.value.dark? 'light' : 'dark';
-// }
 
 export default vuetify;

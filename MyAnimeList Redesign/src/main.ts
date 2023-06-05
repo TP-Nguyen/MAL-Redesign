@@ -10,10 +10,12 @@ import router from 'router';
 import "@mdi/font/css/materialdesignicons.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
+import LazyYoutubeVideo from 'vue-lazy-youtube-video'
 
 
 createApp(App)
 .use(VueAxios,axios)
+
 .use(i18n)
 .use(router)
 .use(vuetify)

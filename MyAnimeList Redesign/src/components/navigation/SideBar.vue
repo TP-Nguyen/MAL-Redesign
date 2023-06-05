@@ -4,7 +4,7 @@
         <v-navigation-drawer expand-on-hover rail color="primary">
           <v-list>
             <v-list-item
-              prepend-avatar="/src/assets/icon/play-outline.svg"
+              prepend-avatar=""
               title="logo"
             ></v-list-item>
           </v-list>
