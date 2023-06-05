@@ -4,7 +4,6 @@ import animeIcon from './icon/play.vue'
 import mangaIcon from './icon/book.vue'
 import communityIcon from './icon/people.vue'
 import industryIcon from './icon/briefcase.vue'
-
 import alertIcon from './icon/alert-circle.vue'
 import contrastIcon from './icon/contrast.vue'
 import filterIcon from './icon/filter.vue'

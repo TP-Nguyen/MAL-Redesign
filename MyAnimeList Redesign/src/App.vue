@@ -9,3 +9,7 @@ import Topbar from "./components/navigation/TopBar.vue";
     <SideBar />
     <Topbar />
 </template>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+</style>

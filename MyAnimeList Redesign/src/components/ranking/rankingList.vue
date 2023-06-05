@@ -9,12 +9,12 @@
                          <v-col cols="4">
                               <v-img :src="info.node.main_picture.large" :width="90" class="rounded-lg ma-0"></v-img>
                          </v-col>
-                         <v-col cols="1" class="font-weight-bold">
+                         <v-col cols="1" class="number-style">
                               #{{ info.ranking.rank }}
                          </v-col>
                          <v-col cols="7" class="text-start">
-                              <v-row class="ma-0">{{ info.node.title }}</v-row>
-                              <v-row>TV, 64 eps <br>scored 9.10 <br>3,149,847 members</v-row>
+                              <v-row no-gutters  class="ma-0">{{ info.node.title }}</v-row>
+                              <v-row no-gutters class="text-style">TV, 64 eps <br>scored 9.10 <br>3,149,847 members</v-row>
                          </v-col>
                     </v-row>
                </v-list-item>
@@ -37,3 +37,12 @@ export default {
      }
 }
 </script>
+
+<style lang="scss">
+.text-style{
+     @include info-text
+}
+.number-style{
+     @include ranking-number
+}
+</style>

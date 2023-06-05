@@ -4,14 +4,14 @@
                {{ $t('TITLE.LATEST_ANIME') }} {{ $t('TITLE.REVIEWS') }}
           </v-card-title>
           <div class="d-flex justify-space-between">
-               <v-card v-for="n in 2" :key="n" color="review" width="470" height="270" class="reviewCard ma-0">
+               <v-card v-for="n in 2" :key="n" color="review" width="470" height="300" class="reviewCard ma-0">
                     <v-row no-gutters>
-                         <v-col cols="3">
+                         <v-col >
                               <!-- <v-img :src="info.data[n].node.main_picture.large" :width="90" class="rounded-lg ma-0"></v-img> -->
                               <!-- <v-card-title class="pa-0"> {{info.data[n].node.title}}</v-card-title> -->
                               <v-card-subtitle class="pa-0 text-primary">{{ $t('REVIEWS.BY') }} author <br>{{
                                    $t('REVIEWS.RATING') }} 8</v-card-subtitle>
-                         </v-col><v-col>
+                         </v-col><v-col cols="9">
                               <v-card-text class="pa-0">Over the years there have been a multitude of comedy shows that have
                                    graced our TV screens, from
                                    the surreal stylings of Monty Python and sarcastic wit of Blackadder, to the sci-fi

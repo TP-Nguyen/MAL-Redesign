@@ -1,0 +1,39 @@
+@mixin page-title {
+    font-size: 36px;
+    line-height: 58.2px;
+    font-family: "Montserrat-SemiBold";
+}
+
+@mixin section-title {
+    font-size: 22px;
+    line-height: 35.6px;
+    font-family: "Montserrat-Medium";
+}
+
+@mixin info-text {
+    font-size: 13px;
+    line-height: 21px;
+}
+
+@mixin description-text {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+@mixin ranking-number {
+    font-size: 16px;
+    font-family: "Montserrat-Medium";
+    line-height: 25.9px;
+}
+
+// review
+@mixin review-title {
+    font-size: 14;
+    line-height: 22.7px;
+    font-family: "Montserrat-Medium";
+}
+
+@mixin review-text {
+    font-size: 14px;
+    line-height: 16.8px;
+}

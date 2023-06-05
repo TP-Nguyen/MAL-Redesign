@@ -9,26 +9,10 @@
     <v-slide-group
       v-model="model"
       class="pa-4"
+      prev-icon="arrowLeftIcon"
+      next-icon="arrowRightIcon"
       show-arrows
     >
-    <template v-slot:prev="{ on, attrs }">
-        <v-btn icon="arrowLeftIcon"
-          plain
-          density="compact"
-          rounded="lg"
-          v-bind="attrs"
-          v-on="on"
-        ></v-btn>
-      </template>
-      <template v-slot:next="{ on, attrs }">
-        <v-btn icon="arrowRightIcon"
-          plain
-          density="compact"
-          rounded="lg"
-          v-bind="attrs"
-          v-on="on"
-        ></v-btn>
-      </template>
       <v-slide-group-item
         v-for="info in info.data"
         :key="info"
@@ -47,7 +31,7 @@
           >
           <v-expand-transition>
                <div
-                    class="d-flex pa-1 v-card--reveal"
+                    class="d-flex pa-1 reveal"
                     v-if="isHovering"
                     >
                     {{info.node.title}}
@@ -79,15 +63,3 @@
      }
   }
 </script>
-<style>
-.v-card--reveal {
-    align-items: center;
-    bottom: 0;
-    justify-content: center;
-    /* opacity: .5; */
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(var(--v-theme-background), 0.7);
-}
-</style>

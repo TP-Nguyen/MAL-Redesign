@@ -9,9 +9,11 @@
     <v-slide-group
       v-model="model"
       class="pa-4"
+      prev-icon="arrowLeftIcon"
+      next-icon="arrowRightIcon"
       show-arrows
     >
-    <template v-slot:prev="{ on, attrs }">
+    <!-- <template v-slot:prev="{ on, attrs }">
         <v-btn icon="arrowLeftIcon"
           plain
           density="compact"
@@ -28,7 +30,7 @@
           v-bind="attrs"
           v-on="on"
         ></v-btn>
-      </template>
+      </template> -->
       <v-slide-group-item
         v-for="info in info.data"
         :key="info"
@@ -47,7 +49,7 @@
           >
           <v-expand-transition>
                <div
-                    class="d-flex pa-1 v-card--reveal"
+                    class="d-flex pa-1 reveal"
                     v-if="isHovering"
                     >
                     {{info.node.title}}

@@ -21,7 +21,7 @@ import Review from "./reviews/Review.vue"
   <SeasonSlider year="2023" season="spring" />
   <Slider title="MANGA_STORE" url="manga/ranking?ranking_type=favorite" />
   <Slider title="LATEST_UPDATE" url="manga/ranking?ranking_type=all" />
-  <Trailer />
+  <Trailer/>
   <Review url="anime?q=kimetsu"/>
 </template>
 

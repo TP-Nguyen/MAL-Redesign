@@ -37,16 +37,14 @@
                <v-list-item
                prepend-icon="languageIcon"
               >
-      <v-select
-      
-      v-model="$i18n.locale"
-      :items="locales"
-      item-title="label"
-      item-value="value"
-      :label="$t('NAV.LANGUAGE')"
-      density="compact"
-    ></v-select>
-
+                  <v-select
+                  v-model="$i18n.locale"
+                  :items="locales"
+                  item-title="label"
+                  item-value="value"
+                  :label="$t('NAV.LANGUAGE')"
+                  density="compact"
+                ></v-select>
               </v-list-item>
                <v-list-item
                prepend-icon="contrastIcon"
@@ -74,15 +72,13 @@
           </v-list>
           </div>
         </template>
-
         </v-navigation-drawer>
-        <v-main style="height: 250px"></v-main>
       </v-layout>
     </v-card>
 </template>
 
 <script>
-import { useTheme, useLocale } from 'vuetify'
+import { useTheme } from 'vuetify'
 export default {
   data () {
     return {
