@@ -1,8 +1,9 @@
 import Vue,{ createApp } from 'vue';
-import './style.css';
+import './style.scss';
 import App from './App.vue';
 import i18n from './plugins/i18n';
 import vuetify from './plugins/vuetify';
+import './font/fonts.scss'
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 import router from 'router';
@@ -16,3 +17,4 @@ createApp(App)
 .use(router)
 .use(vuetify)
 .mount('#app')
+

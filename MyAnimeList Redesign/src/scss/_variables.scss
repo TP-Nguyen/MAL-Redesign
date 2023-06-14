@@ -1,2 +1,3 @@
 $radius: 10px;
 $padding_box: 10px;
+$rounded: ( 0:0, 'sm': calc($radius/2), 'lg': $radius, 'xl': calc($radius * 2));

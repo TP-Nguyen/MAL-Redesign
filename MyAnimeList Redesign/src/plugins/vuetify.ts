@@ -18,9 +18,10 @@ const vuetify = createVuetify({
                     dark: false,
                     colors: {
                          primary: '#2E51A2',
+                         secondary:'#E1E7F5',
                          textPrimary:'#000',
                          textSecondary:'#535353',
-                         genre:'',
+                         genre:'D1D1D6',
                          review:'#F2F2F2',
                          cube:'#FFFFFF',
                          background:'#FAF9F6',
@@ -30,9 +31,10 @@ const vuetify = createVuetify({
                     dark: true,
                     colors: {
                          primary: '#2E51A2',
+                         secondary: '#44506E',
                          textPrimary:'#FAF9F6',
                          textSecondary:'#D5D5D5',
-                         genre:'',
+                         genre:'424242',
                          review:'#131313',
                          cube:'#212121',
                          background:'#303030',

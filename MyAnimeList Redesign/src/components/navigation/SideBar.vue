@@ -48,23 +48,22 @@
               </v-list-item>
                <v-list-item
                prepend-icon="contrastIcon"
-              :title = theme.global.name.value
+              :title = "$t('NAV.'+ theme.global.name.value)"
               value="theme"
               @click="toggleTheme"
               ></v-list-item>
-               <v-list-item
+              <v-list-item
                prepend-icon="settingIcon"
-               hidden
               :title = "$t('NAV.SETTINGS')"
               value="Settings"
-              ></v-list-item>
-               <v-list-item
-               hidden
+              ></v-list-item>               
+              <v-list-item
                prepend-icon="helpIcon"
               :title = "$t('NAV.HELP')"
               value="Help"
-              ></v-list-item>
-               <v-list-item
+              ></v-list-item>               
+              
+              <v-list-item
                prepend-icon="informationIcon"
               :title = "$t('NAV.HIDE_ADS')"
               value="Hide Ads"

@@ -4,14 +4,18 @@ import MainSlider from "./slider/MainSlider.vue";
 import SeasonSlider from "./slider/SliderGroupSeason.vue";
 import Slider from "./slider/SliderGroup.vue";
 import Trailer from "./video/Trailer.vue";
+import AnimeMangaNews from "./news/AnimeMangaNews.vue";
+import Discussion from "./discussion/DiscussionMain.vue";
+import Articles from "./articles/ArticlesMain.vue";
 import Review from "./reviews/Review.vue"
+const props = defineProps({
+  msg: String
+})
 
 </script>
+
 <template>
-  <h1>{{ msg }}</h1>
-  <div>
-    <MainSlider type="" />
-  </div>
+  <MainSlider type="" />
   <div class="d-flex my-5">
     <!-- Top ranking Anime -->
     <RankingList type="airing" />
@@ -22,13 +26,8 @@ import Review from "./reviews/Review.vue"
   <Slider title="MANGA_STORE" url="manga/ranking?ranking_type=favorite" />
   <Slider title="LATEST_UPDATE" url="manga/ranking?ranking_type=all" />
   <Trailer/>
-  <Review url="anime?q=kimetsu"/>
+  <AnimeMangaNews/>
+  <Discussion/>
+  <Articles/>
+  <Review/>
 </template>
-
-<script lang="ts">
-export default {
-     props: {
-          msg: String
-     }
-}
-</script>

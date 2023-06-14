@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card outlined color="cube" class="rounded-lg">
     <v-carousel
       height="500"
       hide-delimiters

@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="mx-auto my-5"
+    class="mx-auto my-5 rounded-lg"
     max-width="1000"
   >
   <v-card-title class="text-justify">
@@ -27,7 +27,8 @@
         >
           <v-img
            :src="info.node.main_picture.large"
-               cover
+           height="225"    
+           cover
           >
           <v-expand-transition>
                <div

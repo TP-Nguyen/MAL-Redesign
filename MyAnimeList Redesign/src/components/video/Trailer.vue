@@ -5,10 +5,10 @@
           <v-card-title class="text-justify px-0">
                {{ $t('TITLE.MOST_POPULAR_TRAILERS') }}
           </v-card-title>
-          <!-- <v-sheet v-for="(videoLink, i) in videoLink" :key="i">
+          <v-sheet v-for="(videoLink, i) in videoLink" :key="i">
                <iframe  height="" width="" src="videoLink" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           {{ videoLink }}
-          </v-sheet> -->
+          </v-sheet>
      </v-card>
 </template>
 

@@ -1,39 +1,54 @@
-@mixin page-title {
+.page-title {
     font-size: 36px;
     line-height: 58.2px;
     font-family: "Montserrat-SemiBold";
 }
 
-@mixin section-title {
+.section-title {
     font-size: 22px;
     line-height: 35.6px;
     font-family: "Montserrat-Medium";
 }
 
-@mixin info-text {
+.info-text {
     font-size: 13px;
     line-height: 21px;
+    font-family: "Montserrat-Regular";
 }
 
-@mixin description-text {
+.main-text {
+    font-size: 16px;
+    line-height: 25.9px;
+    font-family: "Montserrat-Regular";
+}
+
+.description-text {
     font-size: 10px;
     line-height: 12px;
+    font-family: "Montserrat-Regular";
 }
 
-@mixin ranking-number {
+.ranking-number {
     font-size: 16px;
-    font-family: "Montserrat-Medium";
     line-height: 25.9px;
+    font-family: "Montserrat-Medium";
+}
+
+.read-more {
+    font-size: 12px;
+    line-height: 14.4px;
+    font-family: "Montserrat-Light";
 }
 
 // review
-@mixin review-title {
+.review-title {
     font-size: 14;
     line-height: 22.7px;
     font-family: "Montserrat-Medium";
 }
 
-@mixin review-text {
+.review-text {
     font-size: 14px;
     line-height: 16.8px;
+    font-family: "Montserrat-Regular";
 }

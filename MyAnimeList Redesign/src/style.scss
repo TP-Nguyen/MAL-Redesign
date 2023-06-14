@@ -1,5 +1,5 @@
 :root {
-    font-family: "Montserrat", system-ui, sans-serif;
+    font-family: "Montserrat-Regular", "Montserrat", system-ui;
     font-size: 16px;
     line-height: 25.9px;
     color-scheme: light dark;
@@ -21,8 +21,7 @@ body {
 #app {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
+    padding-top: 70px;
     background-color: rgba(var(--v-theme-background));
 }
 
@@ -34,4 +33,8 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(var(--v-theme-background), 0.7);
+}
+
+.v-img img {
+    border-radius: $radius;
 }

@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="mx-auto my-5"
+    class="mx-auto my-5 rounded-lg"
     max-width="1000"
   >
   <v-card-title class="text-justify">
@@ -13,24 +13,6 @@
       next-icon="arrowRightIcon"
       show-arrows
     >
-    <!-- <template v-slot:prev="{ on, attrs }">
-        <v-btn icon="arrowLeftIcon"
-          plain
-          density="compact"
-          rounded="lg"
-          v-bind="attrs"
-          v-on="on"
-        ></v-btn>
-      </template>
-      <template v-slot:next="{ on, attrs }">
-        <v-btn icon="arrowRightIcon"
-          plain
-          density="compact"
-          rounded="lg"
-          v-bind="attrs"
-          v-on="on"
-        ></v-btn>
-      </template> -->
       <v-slide-group-item
         v-for="info in info.data"
         :key="info"
