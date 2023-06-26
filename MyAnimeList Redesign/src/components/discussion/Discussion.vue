@@ -14,9 +14,12 @@
 </template>
 
 <script lang="ts">
-export default {
-     props: {
-          info: {}
+import { defineComponent } from 'vue'
+import { Data } from '../../model/Data'
+export default defineComponent({
+  name: 'Diskussion',
+  props: {
+          info: Data,
      }
-}
+})
 </script>

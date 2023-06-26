@@ -14,3 +14,10 @@ const info= [ "20", "918"]
           </div>
      </v-card>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'NewsHome'
+})
+</script>

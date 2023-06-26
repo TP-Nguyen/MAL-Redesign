@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import Discussion from './Discussion.vue'
-const info = [
+const info= [
                     {title:"Gintama", replies:"51", author:"randomnamechange", date:"Apr 30,2009"},
                     {title:"Vinland", replies:"34", author:"randomnamechange", date:"Feb 21,2008"},
-                    {title:"Naruto", replies:"27", author:"asdasd", date:"May 4,2019"},
+                    {title:"Naruto", replies:"27", author:"randomnamechange", date:"May 4,2019"},
                     {title:"Berserk", replies:"44", author:"randomnamechange", date:"June 10,2015"}
                ]
 </script>
@@ -37,3 +37,12 @@ const info = [
 
      </v-card>
 </template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+     name: 'DiskussionHome',
+     props: {
+          url: String,
+     }
+})
+</script>

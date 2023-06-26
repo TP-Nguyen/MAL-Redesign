@@ -4,10 +4,10 @@ import MainSlider from "./slider/MainSlider.vue";
 import SeasonSlider from "./slider/SliderGroupSeason.vue";
 import Slider from "./slider/SliderGroup.vue";
 import Trailer from "./video/Trailer.vue";
-import AnimeMangaNews from "./news/AnimeMangaNews.vue";
-import Discussion from "./discussion/DiscussionMain.vue";
+import NewsHome from "./news/NewsHome.vue";
+import DiscussionHome from "./discussion/DiscussionHome.vue";
 import Articles from "./articles/ArticlesMain.vue";
-import Review from "./reviews/Review.vue"
+import ReviewHome from "./reviews/ReviewHome.vue"
 const props = defineProps({
   msg: String
 })
@@ -26,8 +26,14 @@ const props = defineProps({
   <Slider title="MANGA_STORE" url="manga/ranking?ranking_type=favorite" />
   <Slider title="LATEST_UPDATE" url="manga/ranking?ranking_type=all" />
   <Trailer/>
-  <AnimeMangaNews/>
-  <Discussion/>
+  <NewsHome/>
+  <DiscussionHome/>
   <Articles/>
-  <Review/>
+  <ReviewHome/>
 </template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'Homepage'
+})
+</script>

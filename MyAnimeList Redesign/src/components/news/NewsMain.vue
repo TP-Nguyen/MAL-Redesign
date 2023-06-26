@@ -22,23 +22,9 @@ const imageSrc="src/assets/image/" + props.url +".jpg";
           </v-row>
      </v-sheet>
 </template>
-<!-- <script lang="ts">
-
-import {Data} from "../../model/Data"
-export default {
-     props: {
-          url: String
-     },
-     data: () => ({
-          info: Data,
-          imageSrc:"src/assets/image/" + url +"jpg"
-          // src/assets/image/20.jpg
-
-     }),
-     beforeMounted() {
-          this.axios
-               .get("/anime/" + this.url)
-               .then((response: { data: Data[]; }) => (this.info = response.data));
-     }
-}
-</script> -->
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'NewsMain'
+})
+</script>
