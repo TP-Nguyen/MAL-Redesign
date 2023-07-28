@@ -22,7 +22,7 @@
      </v-card>
 </template>
 <script lang="ts">
-
+import {Data} from "../../model/Data"
 export default {
      props: {
           type: String
@@ -34,7 +34,7 @@ export default {
      mounted() {
           this.axios
                .get("/anime/ranking?ranking_type=" + this.type)
-               .then((response: { data: any[]; }) => (this.info = response.data));
+               .then((response: { data: Data[]; }) => (this.info = response.data));
      }
 }
 </script>

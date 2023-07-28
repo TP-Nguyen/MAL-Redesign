@@ -13,18 +13,20 @@ export default defineConfig({
   },
   server: {  
     proxy: {
-    '/anime': {
-      target: APIConfig.URL,
-      headers:{'X-MAL-CLIENT-ID' : APIConfig.TOKEN_VALUE},
-      changeOrigin: true,
-      secure: false,      
-      ws: true,
-  },    '/manga': {
-      target: APIConfig.URL,
-      headers:{'X-MAL-CLIENT-ID' : APIConfig.TOKEN_VALUE},
-      changeOrigin: true,
-      secure: false,      
-      ws: true,
+      '/anime': {
+        target: APIConfig.URL,
+        headers:{'X-MAL-CLIENT-ID' : APIConfig.TOKEN_VALUE},
+        changeOrigin: true,
+        secure: false,      
+        ws: true,
+      }, 
+      '/manga': {
+        target: APIConfig.URL,
+        headers:{'X-MAL-CLIENT-ID' : APIConfig.TOKEN_VALUE},
+        changeOrigin: true,
+        secure: false,      
+        ws: true,
+      }
+    }
   }
-  }}
 })

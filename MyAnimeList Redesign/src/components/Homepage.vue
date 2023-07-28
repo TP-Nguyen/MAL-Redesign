@@ -23,9 +23,9 @@ const props = defineProps({
     <RankingList type="bypopularity" />
   </div>
   <SeasonSlider year="2023" season="spring" />
-  <Slider title="MANGA_STORE" url="manga/ranking?ranking_type=favorite" />
   <Slider title="LATEST_UPDATE" url="manga/ranking?ranking_type=all" />
-  <Trailer/>
+  <Slider title="MANGA_STORE" url="manga/ranking?ranking_type=favorite" />
+  <!-- <Trailer/> -->
   <NewsHome/>
   <DiscussionHome/>
   <Articles/>

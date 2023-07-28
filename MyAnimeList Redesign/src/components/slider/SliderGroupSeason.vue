@@ -48,6 +48,7 @@
 </template>
 
 <script lang="ts">
+import {Data} from "../../model/Data"
   export default {
      props: {
       year: String,
@@ -60,7 +61,7 @@
      mounted(){
           this.axios
                .get("/anime/season/"+ this.year +"/"+ this.season)
-               .then((response: { data: any[]; }) => (this.info = response.data));
+               .then((response: { data: Data[]; }) => (this.info = response.data));
      }
   }
 </script>

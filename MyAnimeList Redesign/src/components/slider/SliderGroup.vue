@@ -47,6 +47,7 @@
 </template>
 
 <script lang="ts">
+import {Data} from "../../model/Data"
   export default {
      props: {
           title: String,
@@ -59,7 +60,7 @@
      mounted(){
           this.axios
                .get("/"+ this.url)
-               .then((response: { data: any[]; }) => (this.info = response.data));
+               .then((response: { data: Data[]; }) => (this.info = response.data));
      }
   }
 </script>
