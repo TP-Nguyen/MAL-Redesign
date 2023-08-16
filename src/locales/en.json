@@ -64,43 +64,139 @@
     },
     "DISCUSSION": {
         "DISCUSSION": "Discussion",
+        "BY": "by",
         "REPLIES": "replies"
     },
     "ARTICLES": {
         "ARTICLES": "Articles",
         "VIEWS": "views",
-        "BY": "by"
+        "BY": "by",
+        "SPOILER": "spoiler"
     },
     "PSEUDODATA": {
+        "RANKING": {
+            "AIRING": {
+                "1": {
+                    "TYPE": "Special",
+                    "EP": "2",
+                    "SCORE": "9.03",
+                    "MEMBERS": "466,278"
+                },
+                "2": {
+                    "TYPE": "TV",
+                    "EP": "13",
+                    "SCORE": "8.96",
+                    "MEMBERS": "167,463"
+                },
+                "3": {
+                    "TYPE": "TV",
+                    "EP": "23",
+                    "SCORE": "8.81",
+                    "MEMBERS": "529,154"
+                }
+            },
+            "UPCOMING": {
+                "1": {
+                    "TYPE": "TV",
+                    "EP": "0",
+                    "SCORE": "N/A",
+                    "MEMBERS": "196,778"
+                },
+                "2": {
+                    "TYPE": "TV",
+                    "EP": "0",
+                    "SCORE": "N/A",
+                    "MEMBERS": "179,234"
+                },
+                "3": {
+                    "TYPE": "TV",
+                    "EP": "0",
+                    "SCORE": "N/A",
+                    "MEMBERS": "147,691"
+                }
+            },
+            "BYPOPULARITY": {
+                "1": {
+                    "TYPE": "TV",
+                    "EP": "25",
+                    "SCORE": "8.54",
+                    "MEMBERS": "3,785,555"
+                },
+                "2": {
+                    "TYPE": "TV",
+                    "EP": "37",
+                    "SCORE": "8.62",
+                    "MEMBERS": "3,753,115"
+                },
+                "3": {
+                    "TYPE": "TV",
+                    "EP": "23",
+                    "SCORE": "9.10",
+                    "MEMBERS": "3,210,893"
+                }
+            }
+        },
         "ARTICLES": {
-            "TEXT_1": "Some anime take censorship to the next level, making an art form out of protecting our eyes from indecency. Here are some of the more creative moments in anime censorship.",
-            "TEXT_2": "Some characters are funny because of all the crazy antics they get up to. But others just have the right kind of physiognomy, which make them prone to pulling off some funny anime faces - intentionally or unintentionally."
+            "20": {
+                "TITLE": "My Dress-Up Darling: An Interview with the Director, Part 1",
+                "AUTHOR": "Febri",
+                "TEXT": "*My Dress-Up Darling* has sold over 8million copies, with a hit anime in Winter 2022 and a sequel in the way. It's about cosplay-loving Marin and Wakana, an aspiring doll craftsman. Fans were captivated by the slow-burning love and the realistic cosplay. We got the details from the director.",
+                "VIEWS": "35,508"
+            },
+            "918": {
+                "TITLE": "What Made Wonder Egg Priority Such a Special Anime, Part 1 ",
+                "AUTHOR": "Febri",
+                "TEXT": "Wonder Egg Priority is the first anime series created by hit television drama screenwriter, Shinji Nojima. It's an unique show imbued with the passion of its young team of creators. In this special interview, we asked the core staff on the series what made Wonder Egg Priority so outstanding.",
+                "VIEWS": "56,791"
+            }
         },
         "NEWS": {
             "20": {
-                "TITLE": "North American Anime & Manga Releases for March",
+                "TITLE": "Eiichiro Oda's 'Monsters' One-Shot Manga Gets Anime",
                 "AUTHOR": "DatRandomDude",
-                "TEXT": "Here are the North American anime & manga releases for March Week 1: March 6 - 12 Anime Releases Bungou Stray Dogs Complete Collection Blu-ray & DVD Combo Bu..",
-                "DATE": "Mar 19, 4:58 "
+                "TEXT": "The One Piece Day 2023 event on Saturday announced an anime adaptation of Eiichiro Oda's Monsters one-shot manga titled Monsters: Ippyaku Sanjou Hiryuu Jigoku. The event also revealed the main staff and a teaser visual (pictured). Monsters will be th...",
+                "DATE": "1 hour ago"
             },
             "918": {
-                "TITLE": "'Gintama' Spin-off Light Novel '3-nen Z-gumi Ginpachi-sensei' Gets Anime",
-                "AUTHOR": "Sakata-san",
-                "TEXT": "The Gintama Ato no Matsuri event announced an anime adaptation of Tomohito Oosaki's 3-nen Z-gumi Ginpachi-sensei (3-Z Class's Ginpachi-sensei) spin-off li...",
-                "DATE": "Mar 5 2018, 4:58PM "
+                "TITLE": "Light Novel 'Rakudai Kishi no Cavalry' Concludes with 19th Volume",
+                "AUTHOR": "Vindsh",
+                "TEXT": "Riku Misora's Rakudai Kishi no Cavalry (Chivalry of a Failed Knight) light novel will end with the 19th volume on December 15, according to a post by the GA Bunko imprint's official Twitter on Friday. The account also posted the cover for the final v..",
+                "DATE": "9 hours ago "
+            }
+        },
+        "DISCUSSION": {
+            "1": {
+                "TITLE": "Guys literally want one thing..",
+                "REPLIES": "ateks",
+                "AUTHOR": "6"
+            },
+            "2": {
+                "TITLE": "About university adventures",
+                "REPLIES": "6",
+                "AUTHOR": "Freeghka"
+            },
+            "3": {
+                "TITLE": "Which anime adaptations of visual novels are highly regarded but you think they suck in comparison to source material?",
+                "REPLIES": "7",
+                "AUTHOR": "Tiosar"
+            },
+            "4": {
+                "TITLE": "What are some oneshot/1-volume manga that would make for better / more intriguing productions instead of more of the same incomplete narou - kei isekai adaptations ? ",
+                "REPLIES": "61",
+                "AUTHOR": "Fabio-P"
             }
         },
         "REVIEW": {
             "52211": {
                 "AUTHOR": "whoistgoddess",
                 "RATING": "8",
-                "IMG": "src/assets/image/20.jpg",
+                "IMG": "src/assets/image/52211.jpg",
                 "TEXT": "why does everyone in this show have undiagnosed mental illnesses? it felt as if i was watching my friends and i interact in real time. also all the side characters are useless and if mash wasn't literally so op and autistic this show probably wouldn't have been as good (and funny) as it was. it is a borderline parody anime so it's just meant to be silly..."
             },
             "48549": {
                 "AUTHOR": "purz",
                 "RATING": "6",
-                "IMG": "src/assets/image/918.jpg",
+                "IMG": "src/assets/image/48549.jpg",
                 "TEXT": "Dr stone from 10/10 to 7/10 Second season was a downgrade but still very good, special movie was great and add a new interesting character but this season? huge downgrade. They added a disgusting unnecessary trap character with hidden gender, i really don't understand why this cringe character exist, big turn off and the serie becomes uncomfortable..."
             }
         }

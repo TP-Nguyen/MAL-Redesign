@@ -1,20 +1,46 @@
-<script setup lang="ts">
-import Review from "./Review.vue"  
-const info= [ "52211", "48549"]
-</script>
 <template>
-     <v-card class="mx-auto my-5 px-5 pb-5 rounded-lg" max-width="1000">
-          <v-card-title class="text-justify px-0">
-               {{ $t('TITLE.LATEST_ANIME') }} {{ $t('TITLE.REVIEWS') }}
-          </v-card-title>
-          <div class="d-flex justify-space-between">
-                    <Review v-for="n in 2" :key="n" :url=info[n-1] />
+     <v-card color="review" width="470" height="215" class="reviewCard ma-0">
+          <v-card-title class="pa-0 review-title"> {{info.title}}</v-card-title>
+
+          <div class="d-flex flex-no-wrap justify-space-between">
+               
+               <div class="mr-2">
+                    <v-img :src="$t('PSEUDODATA.REVIEW.' + url + '.IMG') "  :width="90" class="rounded-lg ma-0"></v-img>
+               </div>
+                    <p class="pa-0 review-text">{{$t('PSEUDODATA.REVIEW.' + url + '.TEXT') }}</p>
           </div>
+          <v-row class="pa-0 text-primary review-title ">
+               <v-col> {{ $t('REVIEWS.RATING') }} {{$t('PSEUDODATA.REVIEW.' + url + '.RATING') }}
+               </v-col>
+               <v-col class="d-flex justify-end">
+                    {{ $t('REVIEWS.BY') }} {{$t('PSEUDODATA.REVIEW.' + url + '.AUTHOR') }} 
+               </v-col>
+          </v-row>
+               
      </v-card>
 </template>
 <script lang="ts">
-import { defineComponent } from 'vue'
-export default defineComponent({
-  name: 'ReviewHome'
-})
+import {Data} from "../../model/Data"
+export default {
+     props: {
+          url: String
+     },
+     data: () => ({
+          info: {}
+     }),
+     mounted() {
+          this.axios
+               .get("/anime/" + this.url)
+               .then((response: { data: Data[]; }) => (this.info = response.data));
+     },
+}
 </script>
+
+<style scoped>
+.v-card .reviewCard {
+     padding: 10px;
+}
+p{
+     width: 350px;
+}
+</style>

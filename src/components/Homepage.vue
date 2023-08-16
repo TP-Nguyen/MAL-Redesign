@@ -4,10 +4,9 @@ import MainSlider from "./slider/MainSlider.vue";
 import SeasonSlider from "./slider/SliderGroupSeason.vue";
 import Slider from "./slider/SliderGroup.vue";
 import Trailer from "./video/Trailer.vue";
-import NewsHome from "./news/NewsHome.vue";
-import DiscussionHome from "./discussion/DiscussionHome.vue";
-import Articles from "./articles/ArticlesMain.vue";
-import ReviewHome from "./reviews/ReviewHome.vue"
+import NewsArticle from "./homepage/NewsArticle.vue";
+import Discussion from "./homepage/Discussion.vue";
+import Review from "./homepage/Review.vue"
 const props = defineProps({
   msg: String
 })
@@ -26,10 +25,10 @@ const props = defineProps({
   <Slider title="LATEST_UPDATE" url="manga/ranking?ranking_type=all" />
   <Slider title="MANGA_STORE" url="manga/ranking?ranking_type=favorite" />
   <!-- <Trailer/> -->
-  <NewsHome/>
-  <DiscussionHome/>
-  <Articles/>
-  <ReviewHome/>
+  <NewsArticle title="ANIME_MANGA_NEWS" type="NEWS"/>
+  <NewsArticle title="FEATURED_ARTICLES" type="ARTICLES"/>
+  <Discussion/>
+  <Review/>
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'

@@ -9,8 +9,10 @@
     >
       <v-carousel-item v-for="(slide, i) in slides" :key="i">
         <v-sheet height="100%">
+          <v-img cover width="100%" height="100%" :src="slide" class="ma-0"></v-img>
+              
           <div class="d-flex fill-height justify-center align-center">
-            <div class="text-h2">{{ slide }} Slide</div>
+            <!-- <div class="text-h2">{{ slide }} Slide</div> -->
           </div>
         </v-sheet>
       </v-carousel-item>
@@ -22,7 +24,7 @@
 export default {
   data() {
     return {
-      slides: ["First", "Second", "Third", "Fourth", "Fifth"],
+      slides: ["src/assets/image/slider1.png", "src/assets/image/slider2.png", "src/assets/image/slider3.png", "src/assets/image/slider4.png", "src/assets/image/slider5.png"],
     };
   },
 };

@@ -11,10 +11,10 @@
                               #{{ info.ranking.rank }}
                          </v-col>
                          <v-col cols="7" class="text-start">
-                              <v-row no-gutters  class="ma-0 ">{{ info.node.title }}</v-row>
-                              <v-row no-gutters class="info-text">TV, 64 {{ $t('RANKING.EPS')}} 
-                                   <br>{{ $t('RANKING.SCORED')}} 9.10 
-                                   <br>3,149,847 {{ $t('RANKING.MEMBERS')}}</v-row>
+                              <v-row no-gutters class="info-title ma-0">{{ info.node.title }}</v-row>
+                              <v-row no-gutters class="info-text">{{ $t('PSEUDODATA.RANKING.'+ type.toUpperCase() + '.' + info.ranking.rank + '.TYPE')}}, {{ $t('PSEUDODATA.RANKING.'+ type.toUpperCase() + '.' + info.ranking.rank + '.EP')}} {{ $t('RANKING.EPS')}} 
+                                   <br>{{ $t('RANKING.SCORED')}} {{ $t('PSEUDODATA.RANKING.'+ type.toUpperCase() + '.' + info.ranking.rank + '.SCORE')}}
+                                   <br>{{ $t('PSEUDODATA.RANKING.'+ type.toUpperCase() + '.' + info.ranking.rank + '.MEMBERS')}} {{ $t('RANKING.MEMBERS')}}</v-row>
                          </v-col>
                     </v-row>
                </v-list-item>
@@ -42,5 +42,8 @@ export default {
 <style scoped lang="scss">
 .card-ranking{
      height: 140px;
+}
+.info-title{
+     min-height: 60px;
 }
 </style>

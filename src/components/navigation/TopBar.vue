@@ -8,7 +8,6 @@
         <v-autocomplete
           class="my-40 rounded-lg searchbar"
           :placeholder="$t('GENERAL.SEARCH')"
-          theme="light"
           variant="solo"
           hide-details 
           rounded 
@@ -34,5 +33,8 @@
   width: 700px;
   max-height: 40px;
   justify-self: center;
+}
+.searchbar .v-input__control .v-field__input input {
+  top: 10px;
 }
 </style>
