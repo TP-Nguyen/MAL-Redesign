@@ -5,6 +5,8 @@
       hide-delimiters
       progress="primary"
       show-arrows="hover"
+      prev-icon="arrowLeftIcon"
+      next-icon="arrowRightIcon"
       cycle
     >
       <v-carousel-item v-for="(slide, i) in slides" :key="i">
@@ -12,7 +14,7 @@
           <v-img cover width="100%" height="100%" :src="slide" class="ma-0"></v-img>
               
           <div class="d-flex fill-height justify-center align-center">
-            <!-- <div class="text-h2">{{ slide }} Slide</div> -->
+            <!-- <div class="text-h2">title</div> -->
           </div>
         </v-sheet>
       </v-carousel-item>

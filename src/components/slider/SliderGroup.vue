@@ -24,7 +24,7 @@
           max-height="125"
           :class="{ 'on-hover': isHovering }"
           v-bind="props"
-        >
+        > 
           <v-img
            :src="info.node.main_picture.large"
                cover

@@ -3,28 +3,202 @@
     "GENERAL": {
         "NAME": "Name",
         "SEARCH": "Suche",
-        "SUGGESTION": "Anregungen",
-        "RECOMMENDATION": "Empfehlungen",
-        "POPULAR": "Popular",
-        "UPCOMING": "Upcoming",
-        "FEARURED": "Featured",
-        "LATEST": "Latest",
-        "REVIEWS": "Reviews",
-        "DISCUSSION": "Diskussionen",
-        "UPDATES": "Neues",
-        "RECENT": "Kürzlich"
+        "LOGIN": "login",
+        "ANIME": "anime",
+        "MANGA": "manga",
+        "READMORE": "mehr lesen"
     },
-    "LOGIN": {
-        "": ""
+    "NAV": {
+        "SIGN_UP": "registrieren ",
+        "ANIME": "Anime",
+        "MANGA": "Manga",
+        "COMMUNITY": "Community",
+        "INDUSTRY": "Industry",
+        "SEARCH": "suche",
+        "dark": "Dunkel",
+        "light": "Hell",
+        "LANGUAGE": "Sprache",
+        "SETTINGS": "Einstellung",
+        "HELP": "Hilfe",
+        "HIDE_ADS": "Informationen"
     },
-    "USER": {
-        "": ""
+    "TITLE": {
+        "SUGGESTION": "Vorschlag",
+        "RECOMMENDATION": "Empfehlung",
+        "REVIEWS": "Bewertung",
+        "DISCUSSION": "Diskussion",
+        "LATEST_UPDATE": "zuletzt hinzugefügt",
+        "MANGA_STORE": "manga shop",
+        "MOST_POPULAR_TRAILERS": "meist beliebte Anime Trailers",
+        "ANIME_MANGA_NEWS": "Anime & Manga news",
+        "RECENT_ANIME_DISCUSSION": "aktuelle Anime Diskussion",
+        "FEATURED_ARTICLES": "vorgestellte Artikel",
+        "LATEST_ANIME": "letzten Anime"
     },
-    "ANIME": {
-        "": ""
+    "RANKING": {
+        "AIRING": "Top aktuelle Anime",
+        "UPCOMING": "Top kommende Anime",
+        "BYPOPULARITY": "meistbeliebte Anime",
+        "SCORED": "Wertung",
+        "EPS": "folgen",
+        "MEMBERS": "Mitglieder"
+    },
+    "SEASON": {
+        "SPRING": "Frühling",
+        "SUMMER": "Sommer",
+        "FALL": "Herbst",
+        "WINTER": "Winter"
 
     },
-    "MANGA": {
+    "ANIME": {
+        "SUGGESTION": "Vorschlag",
+        "RECOMMENDATION": "Empfehlung",
+        "REVIEWS": "Bewertung",
         "": ""
+    },
+    "REVIEWS": {
+        "REVIEWS": "Bewertung",
+        "RATING": "Rating",
+        "SCORE": "Wertung",
+        "BY": "von"
+    },
+    "DISCUSSION": {
+        "DISCUSSION": "Diskussion",
+        "BY": "von",
+        "REPLIES": "Antworten"
+    },
+    "ARTICLES": {
+        "ARTICLES": "Artikel",
+        "VIEWS": "Aufrufe",
+        "BY": "von",
+        "SPOILER": "Spoiler"
+    },
+    "PSEUDODATA": {
+        "RANKING": {
+            "AIRING": {
+                "1": {
+                    "TYPE": "Spezial",
+                    "EP": "2",
+                    "SCORE": "9.03",
+                    "MEMBERS": "466,278"
+                },
+                "2": {
+                    "TYPE": "TV",
+                    "EP": "13",
+                    "SCORE": "8.96",
+                    "MEMBERS": "167,463"
+                },
+                "3": {
+                    "TYPE": "TV",
+                    "EP": "23",
+                    "SCORE": "8.81",
+                    "MEMBERS": "529,154"
+                }
+            },
+            "UPCOMING": {
+                "1": {
+                    "TYPE": "TV",
+                    "EP": "0",
+                    "SCORE": "K.A.",
+                    "MEMBERS": "196,778"
+                },
+                "2": {
+                    "TYPE": "TV",
+                    "EP": "0",
+                    "SCORE": "K.A.",
+                    "MEMBERS": "179,234"
+                },
+                "3": {
+                    "TYPE": "TV",
+                    "EP": "0",
+                    "SCORE": "K.A.",
+                    "MEMBERS": "147,691"
+                }
+            },
+            "BYPOPULARITY": {
+                "1": {
+                    "TYPE": "TV",
+                    "EP": "25",
+                    "SCORE": "8.54",
+                    "MEMBERS": "3,785,555"
+                },
+                "2": {
+                    "TYPE": "TV",
+                    "EP": "37",
+                    "SCORE": "8.62",
+                    "MEMBERS": "3,753,115"
+                },
+                "3": {
+                    "TYPE": "TV",
+                    "EP": "23",
+                    "SCORE": "9.10",
+                    "MEMBERS": "3,210,893"
+                }
+            }
+        },
+        "ARTICLES": {
+            "20": {
+                "TITLE": "My Dress-Up Darling: Ein Interview mit dem Regisseur, Teil 1",
+                "AUTHOR": "Febri",
+                "TEXT": "*My Dress-Up Darling* hat sich mehr als 8 Millionen Mal verkauft, im Winter 2022 erscheint ein Anime-Hit und eine Fortsetzung ist in Vorbereitung. Es geht um die Cosplay-begeisterte Marin und Wakana, eine aufstrebende Puppenmacherin. Die Fans waren von der langsam aufflammenden Liebe und dem realistischen Cosplay fasziniert. Wir haben die Details von der Regisseurin erfahren.",
+                "VIEWS": "35,508"
+            },
+            "918": {
+                "TITLE": "Was Wonder Egg Priority zu einem so besonderen Anime machte, Teil 1",
+                "AUTHOR": "Febri",
+                "TEXT": "Wonder Egg Priority ist die erste Anime-Serie, die vom Drehbuchautor des erfolgreichen Fernsehdramas, Shinji Nojima, entwickelt wurde. Es ist eine einzigartige Serie, die von der Leidenschaft ihres jungen Teams von Machern durchdrungen ist. In diesem speziellen Interview haben wir das Kernteam der Serie gefragt, was Wonder Egg Priority so außergewöhnlich macht.",
+                "VIEWS": "56,791"
+            }
+        },
+        "NEWS": {
+            "20": {
+                "TITLE": "Eiichiro Oda's 'Monsters' Kurzmanga erhält ein Anime",
+                "AUTHOR": "DatRandomDude",
+                "TEXT": "Auf dem One Piece Day 2023 Event am Samstag wurde eine Anime-Adaption von Eiichiro Odas Monsters One-Shot-Manga mit dem Titel Monsters: Ippyaku Sanjou Hiryuu Jigoku. Die Veranstaltung enthüllte auch das Hauptpersonal und ein Teaser-Bild (siehe Bild). Monsters wird die...",
+                "DATE": "vor 1 Stunde"
+            },
+            "918": {
+                "TITLE": "Light Novel 'Rakudai Kishi no Cavalry' Schließ mit dem 19. Band",
+                "AUTHOR": "Vindsh",
+                "TEXT": "Riku Misoras Rakudai Kishi no Cavalry (Chivalry of a Failed Knight) Light Novel wird mit dem 19. Band am 15. Dezember enden, wie der offizielle Twitter-Account des GA Bunko-Imprints am Freitag mitteilte. Der Account postete auch das Cover für den letzten Band.",
+                "DATE": "vor 9 Stunden"
+            }
+        },
+        "DISCUSSION": {
+            "1": {
+                "TITLE": "Jungs wollen buchstäblich eine Sache...",
+                "REPLIES": "ateks",
+                "AUTHOR": "6"
+            },
+            "2": {
+                "TITLE": "Über University adventures",
+                "REPLIES": "6",
+                "AUTHOR": "Freeghka"
+            },
+            "3": {
+                "TITLE": "Welche Anime-Adaptionen von visuellen Romanen sind hoch angesehen, aber Sie finden sie im Vergleich zum Ausgangsmaterial mies?",
+                "REPLIES": "7",
+                "AUTHOR": "Tiosar"
+            },
+            "4": {
+                "TITLE": "Was sind einige Oneshot-/1-Band-Manga, die sich für bessere/interessantere Produktionen eignen würden, anstatt der immer gleichen unvollständigen Narou-Kei-Isekai-Adaptionen?",
+                "REPLIES": "61",
+                "AUTHOR": "Fabio-P"
+            }
+        },
+        "REVIEW": {
+            "52211": {
+                "AUTHOR": "whoistgoddess",
+                "RATING": "8",
+                "IMG": "src/assets/image/52211.jpg",
+                "TEXT": "Warum hat jeder in dieser Serie undiagnostizierte Geisteskrankheiten? es fühlte sich an, als ob ich meine Freunde und ich in Echtzeit interagieren sah. auch alle Nebencharaktere sind nutzlos und wenn Mash nicht buchstäblich so op und autistisch war, wäre diese Serie wahrscheinlich nicht so gut (und lustig) gewesen, wie sie war. es ist ein grenzwertiger Parodie-Anime, also soll es einfach nur albern sein..."
+            },
+            "48549": {
+                "AUTHOR": "purz",
+                "RATING": "6",
+                "IMG": "src/assets/image/48549.jpg",
+                "TEXT": "Dr. Stone von 10/10 auf 7/10 Zweite Staffel war eine Verschlechterung, aber immer noch sehr gut, spezieller Film war großartig und fügte einen neuen interessanten Charakter hinzu, aber diese Staffel? große Verschlechterung. Sie fügten einen widerlichen, unnötigen Fallencharakter mit verstecktem Geschlecht hinzu, ich verstehe wirklich nicht, warum es diesen Charakter gibt, der die Serie unangenehm macht."
+            }
+        }
     }
 }
