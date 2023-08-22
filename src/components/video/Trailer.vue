@@ -2,12 +2,12 @@
      <v-card
      class="mx-auto my-5 px-5 pb-5" max-width="1000"
      >
-          <v-card-title class="text-justify px-0">
+          <v-card-title class="text-justify px-0 mb-2">
                {{ $t('TITLE.MOST_POPULAR_TRAILERS') }}
           </v-card-title>
           <v-row>
           <v-sheet  width="300" class="d-fex mx-3" v-for="(videoLink, i) in videoLink" :key="i">
-               <iframe  height="" width="300" :src="videoLink" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe class="video rounded-lg" width="300" :src="videoLink" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </v-sheet>
           </v-row>
      </v-card>
@@ -27,3 +27,8 @@ export default{
      
 }
 </script>
+<style lang="scss" scoped>
+.video{
+     border: 0px;
+}
+</style>

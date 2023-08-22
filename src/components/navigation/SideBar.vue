@@ -1,11 +1,8 @@
 <template  >
-  <v-hover v-slot:default="{ isHovering, props }">
+  <v-hover v-slot:default="{ isHovering, props }" close-delay="500">
     <v-card>
       <v-layout>
         <v-navigation-drawer v-bind="props" color="primary" expand-on-hover rail>
-
-
-          
           <template v-slot: default>
             <v-list>
               <v-list-item prepend-avatar="" title="logo"></v-list-item>
@@ -21,9 +18,11 @@
 
             <v-list density="compact" nav>
               <div v-if="isHovering">
-                <v-list-item :disabled="false"  prepend-icon="languageIcon">
-                  <v-select v-model="$i18n.locale" :items="locales" item-title="label" item-value="value"
-                    :label="$t('NAV.LANGUAGE')" density="compact"></v-select>
+                <v-list-item :disabled="false">
+                  <div>
+                  <v-select prepend-icon="languageIcon" reverse="true" hide-selected="true" :items="locales" item-title="label" item-value="value"
+                    :label="$t('NAV.LANGUAGE')" v-model="$i18n.locale"  variant="underlined"></v-select>
+                  </div>
                 </v-list-item>
                 <v-list-item :disabled="false"  prepend-icon="contrastIcon" :title="$t('NAV.' + theme.global.name.value)" value="theme"
                   @click="toggleTheme"></v-list-item>
@@ -65,5 +64,4 @@ export default {
 .v-navigation-drawer {
   width: 60px;
 }
-
 </style>
