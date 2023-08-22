@@ -24,7 +24,7 @@ const props = defineProps({
   <SeasonSlider year="2023" season="spring" />
   <Slider title="LATEST_UPDATE" url="manga/ranking?ranking_type=all" />
   <Slider title="MANGA_STORE" url="manga/ranking?ranking_type=favorite" />
-  <!-- <Trailer/> -->
+  <Trailer/>
   <NewsArticle title="ANIME_MANGA_NEWS" type="NEWS"/>
   <NewsArticle title="FEATURED_ARTICLES" type="ARTICLES"/>
   <Discussion/>
